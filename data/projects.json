@@ -34,19 +34,25 @@
     "subtitle": "Digital Banking Platform",
     "category": "Digital Banking",
     "paymentSystems": ["Qcash"],
-    "technologies": ["Python", "Java", "SQL", "REST API", "OAuth 2.0"],
-    "role": "API Developer",
-    "challenge": "Provide unified mobile banking experience across multiple banks with credit/prepaid card features.",
-    "solution": "Built RESTful APIs enabling balance inquiry, fund transfer, card management, and transaction history; implemented secure authentication.",
+    "technologies": ["Python", "Java", "SQL", "API", "Tokenizatioin"],
+    "role": ["Provided APIs for banks to connect their Mobile and Web Apps with Q-Cash Database to get customer details.",
+              "Conducted SIT (System Integration Testing) and UAT (User Acceptance Testing) to ensure smooth operations.",
+              "Developed and configured host-side core logic for transaction processing.",
+              "Host logic Development and troubleshooting ."],
+    "challenge": "Provide unified mobile banking experience across multiple banks with credit/prepaid card features to get their data in real time",
+    "solution": "Inetegration of APIs for enabling balance inquiry, fund transfer, card management, and transaction history; implemented secure authentication.",
     "keyFeatures": [
       "Credit card application & management",
       "Prepaid card loading & tracking",
       "Real-time balance inquiry",
-      "Transaction history & statements"
+      "Transaction history & statements",
+      "Pin Based operation through APPs",
+      "MFS/QR",
+      "Real time card/transaction block to reduce fraud",
     ],
     "results": [
-      "Served 500,000+ mobile banking users across 15+ banks",
-      "99.9% API uptime"
+      "Served 5000,000+ mobile banking users across 25+ banks",
+      "Accurate Customer data "
     ],
     "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=80",
     "featured": true
