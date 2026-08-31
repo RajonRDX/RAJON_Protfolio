@@ -299,6 +299,31 @@ function openModal(project) {
   const featuresHtml = project.keyFeatures.map(f => `<li>${f}</li>`).join('');
   const resultsHtml = project.results.map(r => `<li>${r}</li>`).join('');
 
+  // Optional fields - only render if present, so older project entries still work fine
+  const metaItemsHtml = [
+    project.clients ? `<div><span class="contact-item-label">Bank/Client</span><div class="contact-item-value" style="font-weight:400;">${project.clients.join(', ')}</div></div>` : '',
+    project.duration ? `<div><span class="contact-item-label">Duration</span><div class="contact-item-value" style="font-weight:400;">${project.duration}</div></div>` : '',
+    project.status ? `<div><span class="contact-item-label">Status</span><div class="contact-item-value" style="font-weight:400;">${project.status}</div></div>` : ''
+  ].filter(Boolean).join('');
+
+  const metaSectionHtml = metaItemsHtml ? `
+      <div class="modal-section" style="display:flex; flex-wrap:wrap; gap:25px;">
+        ${metaItemsHtml}
+      </div>` : '';
+
+  // "role" can be a single string (e.g. "API Developer") or an array of
+  // responsibility bullet points - render accordingly, same style as Key Features.
+  const roleHtml = Array.isArray(project.role)
+    ? `<ul>${project.role.map(r => `<li>${r}</li>`).join('')}</ul>`
+    : `<p>${project.role}</p>`;
+
+  const responsibilitiesHtml = project.responsibilities
+    ? `<div class="modal-section">
+        <h4 class="modal-section-title"><i class="fas fa-tasks"></i> My Role & Responsibilities</h4>
+        <ul>${project.responsibilities.map(r => `<li>${r}</li>`).join('')}</ul>
+      </div>`
+    : '';
+
   modalBody.innerHTML = `
     <img src="${project.image}" alt="${project.title}" class="modal-image">
     <div class="modal-body">
@@ -309,14 +334,15 @@ function openModal(project) {
         <div class="project-badges" style="margin-bottom: 15px;">${badgesHtml}</div>
         <div class="project-tags">${tagsHtml}</div>
       </div>
+      ${metaSectionHtml}
 
       <div class="modal-section">
-        <h4 class="modal-section-title"><i class="fas fa-user-tie"></i> Role</h4>
-        <p>${project.role}</p>
+        <h4 class="modal-section-title"><i class="fas fa-user-tie"></i> Role & Responsibilities</h4>
+        ${roleHtml}
       </div>
 
       <div class="modal-section">
-        <h4 class="modal-section-title"><i class="fas fa-exclamation-triangle"></i> Challenge</h4>
+        <h4 class="modal-section-title"><i class="fas fa-exclamation-triangle"></i> Overview</h4>
         <p>${project.challenge}</p>
       </div>
 
@@ -324,6 +350,7 @@ function openModal(project) {
         <h4 class="modal-section-title"><i class="fas fa-lightbulb"></i> Solution</h4>
         <p>${project.solution}</p>
       </div>
+      ${responsibilitiesHtml}
 
       <div class="modal-section">
         <h4 class="modal-section-title"><i class="fas fa-star"></i> Key Features</h4>
@@ -331,7 +358,7 @@ function openModal(project) {
       </div>
 
       <div class="modal-section">
-        <h4 class="modal-section-title"><i class="fas fa-chart-line"></i> Results</h4>
+        <h4 class="modal-section-title"><i class="fas fa-chart-line"></i> Results / Impact</h4>
         <div class="modal-results">
           <ul>${resultsHtml}</ul>
         </div>
