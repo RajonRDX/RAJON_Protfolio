@@ -4,14 +4,24 @@
     "title": "IBFT Fund Transfer Project",
     "subtitle": "API Integration with Qcash",
     "category": "Fund Transfer & Integration",
-    "paymentSystems": ["NPSB", "Qcash"],
-    "technologies": ["ISO 8583", "Java", "SQL", "PL/SQL", "Python"],
-    "role":  ["Designed and implemented API integration between the bank and Q-Cash",
+    "paymentSystems": [
+      "NPSB",
+      "Qcash"
+    ],
+    "technologies": [
+      "ISO 8583",
+      "Java",
+      "SQL",
+      "PL/SQL",
+      "Python"
+    ],
+    "role": [
+      "Designed and implemented API integration between the bank and Q-Cash",
       "Led SIT, UAT, and production environment setup for smooth deployment",
       "Developed and configured host-side logic for transaction processing",
       "Built custom reconciliation and dispute-handling reports using SQL and PL/SQL",
-      "Managed the full lifecycle from host development to production rollout"]
-    ,
+      "Managed the full lifecycle from host development to production rollout"
+    ],
     "challenge": "Enable real-time inter-bank fund transfers across 35+ banks through Qcash and NPSB integration.",
     "solution": "Test and implemented API-based solution connecting banking systems with National Payment Switch; customized ISO 8583 messaging for seamless CBS integration with personalized field mapping.",
     "keyFeatures": [
@@ -33,12 +43,22 @@
     "title": "Mobile APP API Integration",
     "subtitle": "Digital Banking Platform",
     "category": "Digital Banking",
-    "paymentSystems": ["Qcash"],
-    "technologies": ["Python", "Java", "SQL", "API", "Tokenizatioin"],
-    "role": ["Provided APIs for banks to connect their Mobile and Web Apps with Q-Cash Database to get customer details.",
-              "Conducted SIT (System Integration Testing) and UAT (User Acceptance Testing) to ensure smooth operations.",
-              "Developed and configured host-side core logic for transaction processing.",
-              "Host logic Development and troubleshooting ."],
+    "paymentSystems": [
+      "Qcash"
+    ],
+    "technologies": [
+      "Python",
+      "Java",
+      "SQL",
+      "API",
+      "Tokenizatioin"
+    ],
+    "role": [
+      "Provided APIs for banks to connect their Mobile and Web Apps with Q-Cash Database to get customer details.",
+      "Conducted SIT (System Integration Testing) and UAT (User Acceptance Testing) to ensure smooth operations.",
+      "Developed and configured host-side core logic for transaction processing.",
+      "Host logic Development and troubleshooting ."
+    ],
     "challenge": "Provide unified mobile banking experience across multiple banks with credit/prepaid card features to get their data in real time",
     "solution": "Inetegration of APIs for enabling balance inquiry, fund transfer, card management, and transaction history; implemented secure authentication.",
     "keyFeatures": [
@@ -52,7 +72,7 @@
     ],
     "results": [
       "Served 5000,000+ mobile banking users across 25+ banks",
-      "Accurate Customer data "
+      "Accurate Customer data"
     ],
     "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=80",
     "featured": true
@@ -62,9 +82,24 @@
     "title": "Fraud Analyzer",
     "subtitle": "Real-Time Fraud Detection",
     "category": "Security & Analytics",
-    "paymentSystems": ["Qcash"],
-    "technologies": ["Data Warehouse", "Datalake", "PL/SQL", "SQL", "Python", "Pandas"],
-    "role": "Data & Security Engineer",
+    "paymentSystems": [
+      "Qcash"
+    ],
+    "technologies": [
+      "Data Warehouse",
+      "Datalake",
+      "PL/SQL",
+      "SQL",
+      "Python",
+      "Pandas"
+    ],
+    "role": [
+      "Designed and developed core logic for real-time fraud detection and prevention.",
+      "Implemented risk-based transaction analysis for fraud prevention before authorization.",
+      "Conducted Testing, SIT (System Integration Testing), and UAT (User Acceptance Testing) to validate system accuracy and performance.",
+      "Built real-time data analysis framework to support risk management calculations.",
+      "Supported configuration for custom fraud rules so that banks could apply their own business logic."
+    ],
     "challenge": "Detect and block fraudulent transactions before authorization across multiple banks.",
     "solution": "Developed real-time analyzer using data warehouse/datalake technologies; implemented ML-driven risk scoring and automated card blocking based on transaction patterns.",
     "keyFeatures": [
@@ -74,8 +109,10 @@
       "Customizable risk rules"
     ],
     "results": [
-      "Reduced fraud losses by 65% across 20+ banks",
-      "Blocked 5,000+ suspicious transactions monthly"
+      "Enabled real-time fraud detection and blocking of suspicious cards before authorization.",
+      "Provided banks with the flexibility to configure and apply their own fraud-prevention logic.",
+      "Reduced fraudulent activities, enhancing trust and security in digital transactions.",
+      "Strengthened overall risk management framework with dynamic, real-time data analysis."
     ],
     "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&q=80",
     "featured": true
@@ -85,9 +122,22 @@
     "title": "API Integration With APP For Credit Card Services",
     "subtitle": "Credit Card Services Platform",
     "category": "Credit Card Services",
-    "paymentSystems": ["Qcash"],
-    "technologies": ["Java", "Python", "SQL", "REST API", "ISO 8583"],
-    "role": "Integration Specialist",
+    "paymentSystems": [
+      "Qcash"
+    ],
+    "technologies": [
+      "Java",
+      "Python",
+      "SQL",
+      "REST API",
+      "ISO 8583"
+    ],
+    "role": [
+      "Designed and implemented API integration between bank's Mobile App and ITC host for credit card services.",
+      "Conducted System Integration Testing (SIT), User Acceptance Testing (UAT), and set up production systems.",
+      "Developed and configured host-side logic for transaction and data processing.",
+      "Provided troubleshooting and ongoing technical support."
+    ],
     "challenge": "Enable comprehensive credit card management via mobile and web applications.",
     "solution": "Developed API gateways for card applications, limit management, statement viewing, payment processing, and reward tracking.",
     "keyFeatures": [
@@ -98,8 +148,10 @@
       "Reward point tracking"
     ],
     "results": [
-      "Processed 100,000+ credit card transactions monthly",
-      "Reduced card issuance time by 50%"
+      "Enabled secure, real-time access to credit card details including balance, identification, status, and transaction history.",
+      "Implemented in-app credit card bill payment to improve convenience and customer engagement.",
+      "Strengthened banks' digital ecosystems through API-driven credit card integration.",
+      "Provided 24/7 access to essential credit card services, enhancing transparency and customer satisfaction."
     ],
     "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
     "featured": false
@@ -109,9 +161,23 @@
     "title": "CBS Certification For New Service",
     "subtitle": "Core Banking Integration",
     "category": "Core Banking Integration",
-    "paymentSystems": ["Qcash", "NPSB", "VISA", "Mastercard"],
-    "technologies": ["ISO 8583", "API", "PL/SQL"],
-    "role": "Certification Lead",
+    "paymentSystems": [
+      "Qcash",
+      "NPSB",
+      "VISA",
+      "Mastercard"
+    ],
+    "technologies": [
+      "ISO 8583",
+      "API",
+      "PL/SQL"
+    ],
+    "role": [
+      "Developed and integrated core logic for new payment services on the CBS host-side.",
+      "Configured ISO 8583 fields to ensure proper CBS integration and transaction processing.",
+      "Led testing processes including SIT and UAT, and managed the production deployment cycle.",
+      "Secured CBS certification for modern payment services implementation."
+    ],
     "challenge": "Certify new banking services with Core Banking Systems (CBS) for VISA/Mastercard compliance.",
     "solution": "Led end-to-end certification covering ISO 8583 message formatting, settlement, reconciliation, and compliance testing for domestic/international transactions.",
     "keyFeatures": [
@@ -121,8 +187,9 @@
       "Compliance certification"
     ],
     "results": [
-      "Certified 15+ new services for 35+ banks",
-      "Passed VISA/Mastercard compliance audits"
+      "Enabled banks to support contemporary payment services including AFT, OCT, MOTO, and IBFT, with capacity for future services.",
+      "Enhanced bank readiness for integration with evolving payment ecosystems.",
+      "Improved customer experience through reliable, certified CBS capabilities and better interoperability."
     ],
     "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&q=80",
     "featured": false
@@ -132,9 +199,20 @@
     "title": "Dual Currency Visa/Mastercard Certification",
     "subtitle": "Card Certification & DCC",
     "category": "Card Certification",
-    "paymentSystems": ["VISA", "Mastercard"],
-    "technologies": ["ISO 8583", "EMV"],
-    "role": "Card Certification Engineer",
+    "paymentSystems": [
+      "VISA",
+      "Mastercard"
+    ],
+    "technologies": [
+      "ISO 8583",
+      "EMV"
+    ],
+    "role": [
+      "Developed and implemented host-side core logic for dual-currency card processing.",
+      "Coordinated SIT (System Integration Testing), UAT (User Acceptance Testing), and production deployment.",
+      "Participated in certification meetings with Visa, Mastercard, and CBS vendors.",
+      "Ensured compliance with global payment network standards for debit cards."
+    ],
     "challenge": "Enable single-currency and multi-currency transactions for cross-border payments including DCC.",
     "solution": "Implemented DCC (Dynamic Currency Conversion) handling; certified both domestic and international transaction flows for credit and prepaid cards.",
     "keyFeatures": [
@@ -144,8 +222,10 @@
       "Cross-border transaction routing"
     ],
     "results": [
-      "Successfully certified 25+ card products",
-      "Enabled international transactions for 15+ banks"
+      "Enabled the bank to issue dual-currency Visa/Mastercard debit cards.",
+      "Supported secure and seamless domestic and international transactions via e-commerce, POS, and ATMs.",
+      "Improved customer convenience and enhanced competitiveness in cross-border payment services.",
+      "Strengthened the bank's digital payment capabilities with certified global interoperability."
     ],
     "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=800&q=80",
     "featured": true
@@ -155,9 +235,18 @@
     "title": "Green Pin Service Incorporation",
     "subtitle": "Security & PIN Services",
     "category": "Security & PIN Services",
-    "paymentSystems": ["Qcash"],
-    "technologies": ["API", "HSM"],
-    "role": "Security Implementation Engineer",
+    "paymentSystems": [
+      "Qcash"
+    ],
+    "technologies": [
+      "API",
+      "HSM"
+    ],
+    "role": [
+      "Led SIT, UAT, and production environment setup to ensure seamless deployment.",
+      "Developed and configured host-side logic for secure PIN transaction processing.",
+      "Coordinated with multiple teams and stakeholders to drive the project from development to go-live."
+    ],
     "challenge": "Enable PIN generation and verification without physical terminals for cardless transactions.",
     "solution": "Integrated HSM for secure key management and PIN encryption; built GreenPIN service using Qcash API for real-time PIN services.",
     "keyFeatures": [
@@ -167,8 +256,9 @@
       "Real-time PIN verification"
     ],
     "results": [
-      "Launched PIN-based services for 10+ banks",
-      "Reduced PIN fraud by 40%"
+      "Enabled customers to change or activate their card PIN online, reducing reliance on physical branches.",
+      "Improved operational efficiency by minimizing manual PIN-related requests.",
+      "Enhanced customer satisfaction with secure, real-time PIN services through the digital channel."
     ],
     "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=800&q=80",
     "featured": false
@@ -178,9 +268,21 @@
     "title": "Bangla QR Project",
     "subtitle": "Digital Payments Framework",
     "category": "Digital Payments",
-    "paymentSystems": ["Qcash", "NPSB"],
-    "technologies": ["API", "ISO 8583", "Java", "Python"],
-    "role": "QR Payment Specialist",
+    "paymentSystems": [
+      "Qcash",
+      "NPSB"
+    ],
+    "technologies": [
+      "API",
+      "ISO 8583",
+      "Java",
+      "Python"
+    ],
+    "role": [
+      "Led SIT, UAT, and production environment setup to ensure seamless deployment.",
+      "Developed and configured host-side logic for secure transaction processing.",
+      "Coordinated with multiple teams and stakeholders to drive the project from development to go-live."
+    ],
     "challenge": "Enable domestic QR code payments across Bangladesh.",
     "solution": "Implemented NPSB-compliant QR payment framework with merchant onboarding, transaction routing, and settlement integration.",
     "keyFeatures": [
@@ -190,8 +292,9 @@
       "Settlement & reconciliation"
     ],
     "results": [
-      "Processed 200,000+ QR transactions in first 6 months",
-      "Onboarded 5,000+ merchants"
+      "Enabled real-time QR scanning payments, boosting convenience for retail customers.",
+      "Empowered banks to acquire merchants directly by issuing branded QR codes.",
+      "Supported Bangladesh's shift toward cashless, digital payments, strengthening the banks' competitive edge."
     ],
     "image": "https://images.unsplash.com/photo-1556742111-a301080d6d4a?w=800&q=80",
     "featured": true
@@ -201,8 +304,14 @@
     "title": "TakaPay Debit Card Integration Project",
     "subtitle": "Debit Card Services",
     "category": "Debit Card Services",
-    "paymentSystems": ["NPSB", "Qcash"],
-    "technologies": ["ISO 8583", "SQL"],
+    "paymentSystems": [
+      "NPSB",
+      "Qcash"
+    ],
+    "technologies": [
+      "ISO 8583",
+      "SQL"
+    ],
     "role": "Integration Engineer",
     "challenge": "Integrate debit card services with National Payment Switch for ATM/POS transactions.",
     "solution": "Customized ISO 8583 messaging for ATM/POS transactions; built settlement, dispute handling, and authorization systems.",
@@ -224,8 +333,13 @@
     "title": "ATM & CRM Certification",
     "subtitle": "ATM/CRM Services",
     "category": "ATM/CRM Services",
-    "paymentSystems": ["Qcash"],
-    "technologies": ["ISO 8583", "NDC Protocol"],
+    "paymentSystems": [
+      "Qcash"
+    ],
+    "technologies": [
+      "ISO 8583",
+      "NDC Protocol"
+    ],
     "role": "ATM/CRM Certification Specialist",
     "challenge": "Certify advanced ATM features including cardless deposit, bill payments, and bKash cash-in.",
     "solution": "Implemented NDC Protocol for ATM/CRM integration; tested various transaction scenarios; ensured EMV compliance.",
@@ -247,8 +361,13 @@
     "title": "Cardless Deposit & Credit Card Bill Payment Through CRM",
     "subtitle": "CRM Solutions",
     "category": "CRM Solutions",
-    "paymentSystems": ["Qcash"],
-    "technologies": ["ISO 8583", "NDC Protocol"],
+    "paymentSystems": [
+      "Qcash"
+    ],
+    "technologies": [
+      "ISO 8583",
+      "NDC Protocol"
+    ],
     "role": "Feature Implementation Lead",
     "challenge": "Enable cash deposits and credit card bill payments without physical cards.",
     "solution": "Developed secure cardless deposit flows; integrated biller networks via CRM systems; implemented real-time transaction processing.",
@@ -270,8 +389,14 @@
     "title": "Bkash Add Money Through CRM",
     "subtitle": "Mobile Financial Services (MFS)",
     "category": "Mobile Financial Services",
-    "paymentSystems": ["Qcash"],
-    "technologies": ["ISO 8583", "API", "NDC Protocol"],
+    "paymentSystems": [
+      "Qcash"
+    ],
+    "technologies": [
+      "ISO 8583",
+      "API",
+      "NDC Protocol"
+    ],
     "role": "MFS Integration Lead",
     "challenge": "Enable ATM-based bKash wallet top-ups for customers without smartphones.",
     "solution": "Integrated Qcash with bKash API through CRM; built real-time transaction routing with instant confirmation.",
@@ -294,8 +419,13 @@
     "title": "Transaction E Alert Service Integration",
     "subtitle": "Messaging & Alerts",
     "category": "Messaging & Alerts",
-    "paymentSystems": ["Qcash"],
-    "technologies": ["SMTP", "SMPP"],
+    "paymentSystems": [
+      "Qcash"
+    ],
+    "technologies": [
+      "SMTP",
+      "SMPP"
+    ],
     "role": "Messaging Integration Engineer",
     "challenge": "Provide real-time transaction alerts and OTPs to customers via email and SMS.",
     "solution": "Integrated SMTP for email alerts and SMPP for SMS/OTP delivery; built alert triggering logic based on transaction events.",
@@ -317,8 +447,14 @@
     "title": "IVR Call Center API Integration",
     "subtitle": "Voice Banking",
     "category": "Voice Banking",
-    "paymentSystems": ["Qcash"],
-    "technologies": ["IVR", "API", "Python"],
+    "paymentSystems": [
+      "Qcash"
+    ],
+    "technologies": [
+      "IVR",
+      "API",
+      "Python"
+    ],
     "role": "Voice Banking API Developer",
     "challenge": "Enable banking services via IVR calls for customers without internet access.",
     "solution": "Built API layer connecting Qcash with IVR systems; implemented balance inquiry, transaction history, card services, and fund transfer via DTMF.",
@@ -340,8 +476,15 @@
     "title": "Safenet To Thales HSM Migration",
     "subtitle": "Security & Cryptographic Migration",
     "category": "Security & Cryptographic Migration",
-    "paymentSystems": ["Qcash", "VISA", "NPSB"],
-    "technologies": ["HSM", "Key Management"],
+    "paymentSystems": [
+      "Qcash",
+      "VISA",
+      "NPSB"
+    ],
+    "technologies": [
+      "HSM",
+      "Key Management"
+    ],
     "role": "Security Migration Specialist",
     "challenge": "Upgrade cryptographic security by migrating from Safenet to Thales 10k HSMs without service disruption.",
     "solution": "Planned and executed key migration with zero downtime; re-encrypted PIN blocks and re-generated cryptographic keys; performed thorough testing.",
