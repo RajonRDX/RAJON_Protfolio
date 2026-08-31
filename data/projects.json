@@ -6,14 +6,19 @@
     "category": "Fund Transfer & Integration",
     "paymentSystems": ["NPSB", "Qcash"],
     "technologies": ["ISO 8583", "Java", "SQL", "PL/SQL", "Python"],
-    "role": "Lead Integration Engineer",
+    "role":  ["Designed and implemented API integration between the bank and Q-Cash",
+      "Led SIT, UAT, and production environment setup for smooth deployment",
+      "Developed and configured host-side logic for transaction processing",
+      "Built custom reconciliation and dispute-handling reports using SQL and PL/SQL",
+      "Managed the full lifecycle from host development to production rollout"]
+    ,
     "challenge": "Enable real-time inter-bank fund transfers across 35+ banks through Qcash and NPSB integration.",
-    "solution": "Designed and implemented API-based middleware connecting banking systems with National Payment Switch; customized ISO 8583 messaging for seamless CBS integration with personalized field mapping.",
+    "solution": "Test and implemented API-based solution connecting banking systems with National Payment Switch; customized ISO 8583 messaging for seamless CBS integration with personalized field mapping.",
     "keyFeatures": [
       "Real-time fund transfer between banks",
-      "Transaction routing through NPSB",
+      "Transaction routing through NPSB/Qcash",
       "Automated settlement and reconciliation",
-      "Dispute handling framework"
+      "Dispute handling Report"
     ],
     "results": [
       "Successfully deployed for 35+ banks",
