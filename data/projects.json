@@ -466,7 +466,7 @@
     ],
     "technologies": [
       "SMTP",
-      "Email Server"
+      "SMPP"
     ],
     "role": [
       "Enabled email notification delivery for end customers on transaction events.",
@@ -488,7 +488,7 @@
       "Reduced customer support inquiries related to unnoticed or unconfirmed transactions."
     ],
     "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=800&q=80",
-    "featured": true
+    "featured": false
   },
   {
     "id": 14,
@@ -522,7 +522,7 @@
       "Improved service accessibility and reduced dependency on branch/internet channels."
     ],
     "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&q=80",
-    "featured": true
+    "featured": false
   },
   {
     "id": 15,
@@ -547,13 +547,13 @@
     "challenge": "Migrate cryptographic key infrastructure from Safenet to Thales 10k HSMs across 35+ banks without disrupting live transaction processing, ensuring every key was accurately accounted for.",
     "solution": "Observed and collected the existing key data from the database, cross-checked it for accuracy, and used this data to plan and validate the secure migration of keys onto the new Thales HSMs with zero downtime.",
     "keyFeatures": [
-      "minimal-downtime migration",
+      "Zero-downtime migration",
       "Secure key transfer",
       "PIN block re-encryption",
       "Comprehensive testing"
     ],
     "results": [
-      "Successfully migrated 35+ banks with accurate pin and other keys",
+      "Successfully migrated 35+ banks with 99.99% uptime",
       "Enhanced security compliance"
     ],
     "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&q=80",
@@ -606,8 +606,7 @@
     "technologies": [
       "Linux",
       "Shell Scripting",
-      "API",
-      "Python"
+      "API"
     ],
     "status": "Completed",
     "challenge": "Visa is retiring the legacy Edit Package (EP 4.0) used for BASE II clearing file processing in favor of Visa Clearing Exchange (VCX), its modern replacement for exchanging clearing files with VisaNet. Banks needed to migrate their clearing file processing to the Linux-based VCX tool without disrupting settlement operations.",
@@ -676,7 +675,8 @@
       "VISA"
     ],
     "technologies": [
-      "ISO 8583"
+      "ISO 8583",
+      "API"
     ],
     "status": "Completed",
     "challenge": "Certify support for two Visa transaction types on the bank's card platform: OCT (Original Credit Transaction), a real-time push/credit transaction used to disburse funds directly to a card (e.g. payouts, refunds, P2P transfers), and AFT (Account Funding Transaction), a debit-side transaction used to pull funds from a card to fund an account or wallet.",
@@ -701,5 +701,4 @@
     "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=800&q=80",
     "featured": false
   }
-
 ]
