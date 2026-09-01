@@ -558,5 +558,148 @@
     ],
     "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&q=80",
     "featured": true
+  },
+  {
+    "id": 16,
+    "title": "TSI (Transaction Status Inquiry) Integration",
+    "subtitle": "Dispute Reduction for Fund Transfers",
+    "category": "Dispute Management & Reconciliation",
+    "paymentSystems": [
+      "NPSB",
+      "Qcash"
+    ],
+    "technologies": [
+      "API",
+      "ISO 8583"
+    ],
+    "status": "Completed",
+    "challenge": "Fund transfer transactions occasionally left customers and banks uncertain of the final status of a transaction, leading to disputes and manual follow-up between banks.",
+    "solution": "Implemented Transaction Status Inquiry (TSI) messaging, allowing banks to query the real-time, definitive status of a fund transfer directly from the switch/host, cutting down on ambiguity before it turns into a dispute.",
+    "role": [
+      "Designed and implemented the TSI message flow between the bank host and the switch.",
+      "Developed and configured host-side logic to process and respond to status inquiry requests.",
+      "Conducted SIT and UAT with participating banks prior to go-live.",
+      "Coordinated rollout across multiple banks and provided ongoing support."
+    ],
+    "keyFeatures": [
+      "Real-time transaction status verification",
+      "API & ISO 8583-based status inquiry messaging",
+      "Reduced dependency on manual dispute investigation",
+      "Rolled out across 20+ banks"
+    ],
+    "results": [
+      "Reduced disputes related to fund transfer transactions.",
+      "Improved customer service by giving banks a definitive, real-time transaction status.",
+      "Enabled for more than 20+ banks."
+    ],
+    "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&q=80",
+    "featured": false
+  },
+  {
+    "id": 17,
+    "title": "Visa EP to VCX Migration",
+    "subtitle": "BASE II Clearing File Processing Upgrade",
+    "category": "Card Certification",
+    "paymentSystems": [
+      "VISA"
+    ],
+    "technologies": [
+      "Linux",
+      "Shell Scripting",
+      "API"
+    ],
+    "status": "Completed",
+    "challenge": "Visa is retiring the legacy Edit Package (EP 4.0) used for BASE II clearing file processing in favor of Visa Clearing Exchange (VCX), its modern replacement for exchanging clearing files with VisaNet. Banks needed to migrate their clearing file processing to the Linux-based VCX tool without disrupting settlement operations.",
+    "solution": "Deployed the Linux version of VCX for BASE II clearing file processing and wrote custom automation scripts to handle the outgoing/incoming file cycle, scaling the migration across 28 banks with minimal manual intervention.",
+    "role": [
+      "Deployed and configured the Linux version of Visa Clearing Exchange (VCX) for BASE II clearing.",
+      "Wrote automation scripts to handle clearing file generation, transfer, and processing.",
+      "Rolled out and validated the migration across 28 banks.",
+      "Provided testing support and troubleshooting during cutover from Edit Package to VCX."
+    ],
+    "keyFeatures": [
+      "Linux-based VCX deployment for BASE II clearing",
+      "Custom automation scripts for clearing file processing",
+      "Migration scaled across 28 banks",
+      "Replacement of legacy Visa Edit Package (EP 4.0)"
+    ],
+    "results": [
+      "Successfully migrated BASE II clearing file processing from Edit Package to VCX for 28 banks.",
+      "Automated the clearing file cycle, reducing manual processing effort.",
+      "Kept banks aligned with Visa's mandated migration ahead of Edit Package retirement."
+    ],
+    "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&q=80",
+    "featured": false
+  },
+  {
+    "id": 18,
+    "title": "MFS (Mobile Financial Services) Integration via NPSB",
+    "subtitle": "Fund Transfer Between MFS Wallets & Bank Accounts",
+    "category": "Mobile Financial Services",
+    "paymentSystems": [
+      "NPSB"
+    ],
+    "technologies": [
+      "ISO 8583",
+      "API"
+    ],
+    "status": "2 Banks Live, Others Ongoing",
+    "challenge": "Enable customers to move funds between Mobile Financial Service (MFS) wallets and their bank accounts through the National Payment Switch Bangladesh (NPSB), rather than relying on siloed, provider-specific channels.",
+    "solution": "Implemented ISO 8583-based fund transfer messaging between bank hosts and MFS providers via NPSB, enabling interoperable transfers between MFS wallets and bank accounts.",
+    "role": [
+      "Designed and implemented ISO 8583 message flow for MFS-to-bank fund transfers via NPSB.",
+      "Developed and configured host-side logic for transaction processing.",
+      "Led SIT and UAT for participating banks.",
+      "Coordinated phased rollout across multiple banks."
+    ],
+    "keyFeatures": [
+      "MFS-to-bank and bank-to-MFS fund transfer",
+      "NPSB-based interoperable routing",
+      "ISO 8583 message processing",
+      "Phased multi-bank rollout"
+    ],
+    "results": [
+      "Live in production for 2 banks, with additional banks currently onboarding.",
+      "Enabled interoperable fund movement between MFS wallets and bank accounts.",
+      "Laid the foundation for wider MFS interoperability across the banking network."
+    ],
+    "image": "https://images.unsplash.com/photo-1556742111-a301080d6d4a?w=800&q=80",
+    "featured": false
+  },
+  {
+    "id": 19,
+    "title": "VISA OCT & AFT Certification",
+    "subtitle": "Original Credit & Account Funding Transaction Certification",
+    "category": "Card Certification",
+    "paymentSystems": [
+      "VISA"
+    ],
+    "technologies": [
+      "ISO 8583",
+      "API"
+    ],
+    "status": "Completed",
+    "challenge": "Certify support for two Visa transaction types on the bank's card platform: OCT (Original Credit Transaction), a real-time push/credit transaction used to disburse funds directly to a card (e.g. payouts, refunds, P2P transfers), and AFT (Account Funding Transaction), a debit-side transaction used to pull funds from a card to fund an account or wallet.",
+    "solution": "Implemented and certified ISO 8583 message flows for both OCT (credit/push) and AFT (debit/funding) transaction types, enabling the bank to support real-time fund disbursement and account funding use cases on Visa's network.",
+    "role": [
+      "Designed and implemented ISO 8583 message handling for OCT and AFT transaction types.",
+      "Led SIT and UAT with Visa and coordinated the certification process.",
+      "Developed and configured host-side logic for credit (OCT) and debit (AFT) transaction processing.",
+      "Managed production rollout following successful certification."
+    ],
+    "keyFeatures": [
+      "OCT (Original Credit Transaction) processing - real-time push/credit to card",
+      "AFT (Account Funding Transaction) processing - debit-side account funding",
+      "ISO 8583-based certification with Visa",
+      "Support for payouts, refunds, P2P, and wallet-funding use cases"
+    ],
+    "results": [
+      "Certified the bank's platform for both OCT and AFT transaction types with Visa.",
+      "Enabled real-time credit disbursement (OCT) and account/wallet funding (AFT) use cases.",
+      "Expanded the bank's card product capabilities to support modern payout and funding flows."
+    ],
+    "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=800&q=80",
+    "featured": false
   }
+
 ]
