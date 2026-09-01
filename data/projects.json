@@ -35,7 +35,7 @@
       "Enabled Real time fund transfer through dirrerent PS",
       "Handled 1000,000+ monthly transactions"
     ],
-    "image": "img/project/1_IBFT.jpg",
+    "image": "https://6a9698f13db6a220b86463d4.imgix.net/sandbox/1_IBFT.jpg",
     "featured": true
   },
   {
@@ -74,7 +74,7 @@
       "Served 5000,000+ mobile banking users across 25+ banks",
       "Accurate Customer data"
     ],
-    "image": "img/project/2_appApi.jpg",
+    "image": "https://6a9698f13db6a220b86463d4.imgix.net/sandbox/2_appApi.jpg?h=800&max-h=800&fit=crop",
     "featured": true
   },
   {
@@ -114,7 +114,7 @@
       "Reduced fraudulent activities, enhancing trust and security in digital transactions.",
       "Strengthened overall risk management framework with dynamic, real-time data analysis."
     ],
-    "image": "img/project/3_fraud_analyzer.jpg",
+    "image": "https://6a9698f13db6a220b86463d4.imgix.net/sandbox/3_fraud_analyzer.jpg?h=800&max-h=800&fit=crop" alt="" height="800"",
     "featured": true
   },
   {
