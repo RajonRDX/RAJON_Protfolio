@@ -488,7 +488,7 @@
       "Reduced customer support inquiries related to unnoticed or unconfirmed transactions."
     ],
     "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=800&q=80",
-    "featured": false
+    "featured": true
   },
   {
     "id": 14,
@@ -522,7 +522,7 @@
       "Improved service accessibility and reduced dependency on branch/internet channels."
     ],
     "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&q=80",
-    "featured": false
+    "featured": true
   },
   {
     "id": 15,
