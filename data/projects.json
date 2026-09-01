@@ -310,23 +310,33 @@
     ],
     "technologies": [
       "ISO 8583",
-      "SQL"
+      "Cryptography"
     ],
-    "role": "Integration Engineer",
-    "challenge": "Integrate debit card services with National Payment Switch for ATM/POS transactions.",
-    "solution": "Customized ISO 8583 messaging for ATM/POS transactions; built settlement, dispute handling, and authorization systems.",
+    "role": [
+      "Led SIT, UAT, and production environment setup for smooth deployment.",
+      "Developed and configured host-side logic to process TakaPay debit card transactions securely.",
+      "Coordinated with stakeholders, vendors, and technical teams to ensure on-time project go-live."
+    ],
+    "challenge": "Introduce Bangladesh's national debit card scheme, TakaPay, into NCC Bank PLC's systems. Initiated by Bangladesh Bank and operated through the National Payment Switch Bangladesh (NPSB), TakaPay promotes local currency transactions, reduces reliance on international networks like Visa and Mastercard, and strengthens financial self-reliance.",
+    "solution": "Integrated TakaPay debit card processing into NCC Bank's host systems, enabling customers to enjoy secure, cost-effective domestic payments using local infrastructure, including free ATM withdrawals, POS transactions, and year-round merchant discounts.",
     "keyFeatures": [
-      "ATM transaction processing",
-      "POS transaction routing",
-      "Settlement & reconciliation",
-      "Dispute management"
+      "TakaPay national debit card processing",
+      "Free ATM withdrawals via domestic infrastructure",
+      "POS transactions on local payment rails",
+      "Year-round merchant discounts"
     ],
     "results": [
-      "Supported 300,000+ debit card transactions daily",
-      "Integrated with 35+ banks"
+      "Enabled NCC Bank customers to transact locally without dependency on international networks.",
+      "Reduced transaction costs and promoted domestic financial infrastructure.",
+      "Supported Bangladesh Bank's vision for a self-reliant, cashless economy, improving customer convenience and merchant adoption."
     ],
     "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80",
-    "featured": false
+    "featured": false,
+    "clients": [
+      "NCC Bank PLC"
+    ],
+    "duration": "2025",
+    "status": "Completed"
   },
   {
     "id": 10,
@@ -338,23 +348,35 @@
     ],
     "technologies": [
       "ISO 8583",
-      "NDC Protocol"
+      "NDC"
     ],
-    "role": "ATM/CRM Certification Specialist",
-    "challenge": "Certify advanced ATM features including cardless deposit, bill payments, and bKash cash-in.",
-    "solution": "Implemented NDC Protocol for ATM/CRM integration; tested various transaction scenarios; ensured EMV compliance.",
+    "role": [
+      "Led SIT, UAT, and production environment setup to ensure smooth certification and deployment.",
+      "Developed and configured host-side logic for ATM/CRM transaction processing.",
+      "Coordinated with vendors, stakeholders, and technical teams to complete certification and drive the project from development to go-live."
+    ],
+    "challenge": "Certify and integrate various ATM and Cash Recycler Machine (CRM) brands - including NCR, Hitachi, and GRG ATM - with the banks' host systems, ensuring secure, seamless interoperability across multiple vendors.",
+    "solution": "Implemented the NDC protocol for vendor-agnostic ATM/CRM integration, enabling reliable cash withdrawal, deposit, and fund transfer services across the banks' digital and self-service channels.",
     "keyFeatures": [
-      "Cardless deposit",
-      "Bill payment integration",
-      "bKash cash-in",
-      "Fund transfer"
+      "Multi-vendor ATM/CRM certification (NCR, Hitachi, GRG ATM)",
+      "Cash withdrawal, deposit & fund transfer services",
+      "NDC protocol-based host integration",
+      "Vendor-agnostic interoperability"
     ],
     "results": [
-      "Certified 200+ ATMs/CRMs across 15 banks",
-      "Reduced ATM downtime by 30%"
+      "Successfully certified and deployed multiple ATM/CRM brands, ensuring vendor-agnostic compatibility.",
+      "Improved customer access to secure cash and deposit services through certified self-service machines.",
+      "Enhanced operational efficiency and network reliability, strengthening the banks' digital and self-service banking infrastructure."
     ],
     "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
-    "featured": false
+    "featured": false,
+    "clients": [
+      "First Security Islami Bank PLC",
+      "Midland Bank PLC",
+      "NCC Bank PLC"
+    ],
+    "duration": "2022 \u2013 2024",
+    "status": "Completed"
   },
   {
     "id": 11,
@@ -368,21 +390,32 @@
       "ISO 8583",
       "NDC Protocol"
     ],
-    "role": "Feature Implementation Lead",
-    "challenge": "Enable cash deposits and credit card bill payments without physical cards.",
-    "solution": "Developed secure cardless deposit flows; integrated biller networks via CRM systems; implemented real-time transaction processing.",
+    "role": [
+      "Led SIT, UAT, and production environment setup to ensure smooth certification and deployment.",
+      "Developed and configured host-side logic for cardless deposit and credit card bill payment processing.",
+      "Coordinated with vendors, stakeholders, and technical teams to drive the project from development to go-live."
+    ],
+    "challenge": "Enable cardholders to deposit cash or pay their credit card bills without using a physical card, by leveraging CRM (Cash Recycler Machine) technology for participating banks.",
+    "solution": "Built secure cardless deposit and credit card bill payment flows on CRM infrastructure, allowing customers to deposit funds directly into their accounts or settle credit card dues conveniently.",
     "keyFeatures": [
-      "Secure cardless deposit",
-      "Credit card bill payment",
-      "Biller network integration",
-      "Real-time confirmation"
+      "Cardless cash deposit via CRM",
+      "In-branch credit card bill payment without a physical card",
+      "Secure host-side transaction processing",
+      "24/7 self-service availability"
     ],
     "results": [
-      "Reduced ATM fraud by enabling secure cardless transactions",
-      "Processed 50,000+ monthly bill payments"
+      "Enabled secure cardless transactions, reducing dependency on physical cards.",
+      "Improved customer convenience by offering 24/7 deposit and bill payment options.",
+      "Reduced branch workload and enhanced self-service banking efficiency for participating banks."
     ],
     "image": "https://images.unsplash.com/photo-1556742111-a301080d6d4a?w=800&q=80",
-    "featured": false
+    "featured": false,
+    "clients": [
+      "First Security Islami Bank PLC",
+      "Midland Bank PLC"
+    ],
+    "duration": "2022 \u2013 2023",
+    "status": "Completed"
   },
   {
     "id": 12,
@@ -395,24 +428,33 @@
     "technologies": [
       "ISO 8583",
       "API",
-      "NDC Protocol"
+      "NDC"
     ],
-    "role": "MFS Integration Lead",
-    "challenge": "Enable ATM-based bKash wallet top-ups for customers without smartphones.",
-    "solution": "Integrated Qcash with bKash API through CRM; built real-time transaction routing with instant confirmation.",
+    "role": [
+      "Led SIT, UAT, and production environment setup to ensure seamless deployment.",
+      "Developed and configured host-side logic for secure MFS fund transfer processing.",
+      "Coordinated with vendors, stakeholders, and technical teams to drive the project from development to go-live."
+    ],
+    "challenge": "Enable cardholders to transfer funds directly to their Mobile Financial Service (MFS) accounts (bKash) using ATMs and CRMs, without requiring internet access.",
+    "solution": "Integrated ATM/CRM infrastructure with bKash via API and ISO 8583 messaging, giving customers a fast, secure way to top up their bKash wallets anytime, across all Q-Cash member banks.",
     "keyFeatures": [
-      "ATM-to-bKash wallet top-up",
-      "Real-time transaction routing",
-      "Instant confirmation",
-      "Transaction history"
+      "ATM/CRM-to-bKash wallet top-up",
+      "No internet access required for the end customer",
+      "Real-time fund transfer confirmation",
+      "Available across all Q-Cash member banks"
     ],
     "results": [
-      "Launched service across 20+ banks",
-      "50,000+ monthly top-ups",
-      "Increased financial inclusion"
+      "Enabled real-time bKash wallet funding via ATMs and CRMs, increasing accessibility for non-internet users.",
+      "Enhanced customer convenience and promoted wider adoption of digital financial services.",
+      "Strengthened Q-Cash's position as a key player in Bangladesh's MFS and cashless transaction ecosystem."
     ],
     "image": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=800&q=80",
-    "featured": false
+    "featured": false,
+    "clients": [
+      "All Q-Cash Member Banks"
+    ],
+    "duration": "2024",
+    "status": "Completed"
   },
   {
     "id": 13,
@@ -424,20 +466,26 @@
     ],
     "technologies": [
       "SMTP",
-      "SMPP"
+      "Email Server"
     ],
-    "role": "Messaging Integration Engineer",
-    "challenge": "Provide real-time transaction alerts and OTPs to customers via email and SMS.",
-    "solution": "Integrated SMTP for email alerts and SMPP for SMS/OTP delivery; built alert triggering logic based on transaction events.",
+    "role": [
+      "Enabled email notification delivery for end customers on transaction events.",
+      "Set up and configured the email domain and bank mail-server settings for alert delivery.",
+      "Designed and configured the email/alert message format for clarity and consistency.",
+      "Tested and validated alert delivery to ensure reliable, real-time notifications."
+    ],
+    "challenge": "Provide banks' customers with automated, real-time transaction alerts over email so they stay informed of account activity without relying on manual checks.",
+    "solution": "Set up and configured email-based transaction alerting end-to-end - establishing the email domain and bank mail-server configuration, defining the alert message formats, and enabling delivery to customers on every qualifying transaction.",
     "keyFeatures": [
-      "Real-time email alerts",
-      "SMS/OTP delivery via SMPP",
-      "Customizable alert rules",
-      "Multi-channel notification"
+      "Real-time email transaction alerts",
+      "Bank domain & mail-server configuration",
+      "Standardized alert message formatting",
+      "Reliable delivery validation"
     ],
     "results": [
-      "Delivered 5 million+ alerts monthly",
-      "Improved customer engagement by 40%"
+      "Enabled customers to receive real-time email alerts for every transaction.",
+      "Improved transaction transparency and customer trust in digital banking.",
+      "Reduced customer support inquiries related to unnoticed or unconfirmed transactions."
     ],
     "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=800&q=80",
     "featured": false
@@ -452,21 +500,26 @@
     ],
     "technologies": [
       "IVR",
-      "API",
-      "Python"
+      "API"
     ],
-    "role": "Voice Banking API Developer",
-    "challenge": "Enable banking services via IVR calls for customers without internet access.",
-    "solution": "Built API layer connecting Qcash with IVR systems; implemented balance inquiry, transaction history, card services, and fund transfer via DTMF.",
+    "role": [
+      "Enabled IVR API integration with the host system to retrieve customer data, similar to the mobile app integration.",
+      "Developed and configured host-side logic to serve IVR-initiated requests securely.",
+      "Conducted testing to ensure accurate and reliable data retrieval over the IVR channel.",
+      "Provided troubleshooting and technical support during rollout."
+    ],
+    "challenge": "Enable banking services via IVR calls for customers without internet access, connecting the call center's IVR platform to the host in the same way the mobile app connects to retrieve customer data.",
+    "solution": "Built and enabled the IVR API integration with the host system, allowing the IVR platform to securely fetch real-time customer and account data for phone-based banking services.",
     "keyFeatures": [
-      "Balance inquiry via IVR",
-      "Mini statement",
-      "Card blocking",
-      "Fund transfer (limited)"
+      "IVR-to-host API integration for real-time customer data",
+      "Balance inquiry & mini statement via IVR",
+      "Secure data retrieval for phone-based banking",
+      "Support channel for customers without internet access"
     ],
     "results": [
-      "Added phone banking channel for 35+ banks",
-      "Served 200,000+ IVR calls monthly"
+      "Extended banking services to customers via phone, without requiring internet access.",
+      "Enabled the IVR platform to securely access real-time customer and account data.",
+      "Improved service accessibility and reduced dependency on branch/internet channels."
     ],
     "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&q=80",
     "featured": false
@@ -485,17 +538,22 @@
       "HSM",
       "Key Management"
     ],
-    "role": "Security Migration Specialist",
-    "challenge": "Upgrade cryptographic security by migrating from Safenet to Thales 10k HSMs without service disruption.",
-    "solution": "Planned and executed key migration with zero downtime; re-encrypted PIN blocks and re-generated cryptographic keys; performed thorough testing.",
+    "role": [
+      "Observed and collected key-related data from the database ahead of migration.",
+      "Cross-checked collected data against existing records to ensure migration accuracy.",
+      "Supported planning and execution of the zero-downtime key migration to Thales 10k HSMs.",
+      "Assisted in testing and verification of re-encrypted PIN blocks and regenerated keys post-migration."
+    ],
+    "challenge": "Migrate cryptographic key infrastructure from Safenet to Thales 10k HSMs across 35+ banks without disrupting live transaction processing, ensuring every key was accurately accounted for.",
+    "solution": "Observed and collected the existing key data from the database, cross-checked it for accuracy, and used this data to plan and validate the secure migration of keys onto the new Thales HSMs with zero downtime.",
     "keyFeatures": [
-      "Zero-downtime migration",
+      "minimal-downtime migration",
       "Secure key transfer",
       "PIN block re-encryption",
       "Comprehensive testing"
     ],
     "results": [
-      "Successfully migrated 35+ banks with 99.99% uptime",
+      "Successfully migrated 35+ banks with accurate pin and other keys",
       "Enhanced security compliance"
     ],
     "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&q=80",
