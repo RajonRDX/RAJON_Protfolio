@@ -446,8 +446,34 @@ contactForm.addEventListener('submit', (e) => {
   }
 
   if (isValid) {
-    showToast('Message sent successfully! I will get back to you soon.');
-    contactForm.reset();
+    const submitBtn = contactForm.querySelector('button[type="submit"]');
+    const originalBtnHtml = submitBtn.innerHTML;
+    submitBtn.disabled = true;
+    submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+
+    const formData = new FormData(contactForm);
+    const encoded = new URLSearchParams(formData).toString();
+
+    fetch('https://formsubmit.co/ajax/mehedi.rajon07@gmail.com', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+        'Accept': 'application/json'
+      },
+      body: encoded
+    })
+      .then((response) => {
+        if (!response.ok) throw new Error('Submission failed');
+        showToast('Message sent successfully! I will get back to you soon.');
+        contactForm.reset();
+      })
+      .catch(() => {
+        showToast('Something went wrong. Please email me directly instead.');
+      })
+      .finally(() => {
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = originalBtnHtml;
+      });
   }
 });
 
