@@ -415,7 +415,8 @@
 
       <div class="testimonials-grid">
         <div class="testimonial-card fade-in">
-          <p class="testimonial-text">I’ve had the pleasure of working with Mr. Rajon and he has shown exceptional expertise in payment systems and coding. He’s quick to learn, delivers reliable solutions, and adds great value to any team. I highly recommend him for his technical skills and professionalism.
+          <p class="testimonial-text">I've had the pleasure of working with Mr. Rajon and he has shown exceptional expertise in payment systems and coding. He's quick to learn, delivers reliable solutions, and adds great value to any team. I highly recommend him for his technical skills and professionalism.</p>
+          <div class="testimonial-author">
             <div class="testimonial-avatar">DA</div>
             <div>
               <div class="testimonial-name">Daud Arafath</div>
@@ -529,6 +530,15 @@
             <i class="fas fa-copy" style="color: var(--gray); font-size: 0.9rem;"></i>
           </div>
 
+          <div class="contact-item" onclick="window.open('https://wa.me/8801711020174?text=' + encodeURIComponent('Hi Rajon, I found your portfolio and would like to discuss a project.'), '_blank')">
+            <i class="fab fa-whatsapp"></i>
+            <div>
+              <div class="contact-item-label">WhatsApp</div>
+              <div class="contact-item-value">Chat with me directly</div>
+            </div>
+            <i class="fas fa-external-link-alt" style="color: var(--gray); font-size: 0.9rem;"></i>
+          </div>
+
           <div class="contact-item" onclick="showToast('Location: Dhaka, Bangladesh')">
             <i class="fas fa-map-marker-alt"></i>
             <div>
@@ -556,11 +566,19 @@
             <a href="tel:01711020174" class="social-link" aria-label="Phone">
               <i class="fas fa-phone"></i>
             </a>
+            <a href="https://wa.me/8801711020174" target="_blank" class="social-link" aria-label="WhatsApp">
+              <i class="fab fa-whatsapp"></i>
+            </a>
           </div>
         </div>
 
         <div class="contact-form fade-in">
-          <form id="contactForm">
+          <form id="contactForm" method="POST" action="https://formsubmit.co/mehedi.rajon07@gmail.com">
+            <input type="hidden" name="_subject" value="New message from your portfolio site!">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+
             <div class="form-group">
               <label for="name">Your Name</label>
               <input type="text" id="name" name="name" placeholder="John Doe">
