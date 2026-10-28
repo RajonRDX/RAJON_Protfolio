@@ -35,7 +35,7 @@
       "Enabled Real time fund transfer through dirrerent PS",
       "Handled 1000,000+ monthly transactions"
     ],
-    "image": "https://6a9698f13db6a220b86463d4.imgix.net/sandbox/1_IBFT.jpg",
+    "image": "img/project/1_IBFT.jpg",
     "featured": true
   },
   {
@@ -74,7 +74,7 @@
       "Served 5000,000+ mobile banking users across 25+ banks",
       "Accurate Customer data"
     ],
-    "image": "https://6a9698f13db6a220b86463d4.imgix.net/sandbox/2_appApi.jpg?h=800&max-h=800&fit=crop",
+    "image": "img/project/2_appApi.jpg",
     "featured": true
   },
   {
@@ -114,7 +114,7 @@
       "Reduced fraudulent activities, enhancing trust and security in digital transactions.",
       "Strengthened overall risk management framework with dynamic, real-time data analysis."
     ],
-    "image": "https://6a9698f13db6a220b86463d4.imgix.net/sandbox/3_fraud_analyzer.jpg?h=800&max-h=800&fit=crop",
+    "image": "img/project/3_fraud_analyzer.jpg",
     "featured": true
   },
   {
@@ -153,7 +153,7 @@
       "Strengthened banks' digital ecosystems through API-driven credit card integration.",
       "Provided 24/7 access to essential credit card services, enhancing transparency and customer satisfaction."
     ],
-    "image": "https://6a9698f13db6a220b86463d4.imgix.net/sandbox/ChatGPT%20Image%20Sep%201,%202026,%2003_36_57%20PM.png?h=800&max-h=800&fit=crop",
+    "image": "img/project/4_credit_card_app.svg",
     "featured": false
   },
   {
@@ -191,7 +191,7 @@
       "Enhanced bank readiness for integration with evolving payment ecosystems.",
       "Improved customer experience through reliable, certified CBS capabilities and better interoperability."
     ],
-    "image": "https://6a9698f13db6a220b86463d4.imgix.net/sandbox/ChatGPT%20Image%20Sep%201,%202026,%2003_45_46%20PM.png?h=800&max-h=800&fit=crop",
+    "image": "img/project/5_cbs_certification.svg",
     "featured": false
   },
   {
@@ -408,7 +408,7 @@
       "Improved customer convenience by offering 24/7 deposit and bill payment options.",
       "Reduced branch workload and enhanced self-service banking efficiency for participating banks."
     ],
-    "image": "https://6a9698f13db6a220b86463d4.imgix.net/sandbox/11.%20Cardless%20Deposit%20&%20Credit%20Card%20Bill%20Payment%20Through%20CRM.png?h=800&max-h=800&fit=crop",
+    "image": "img/project/11_cardless_crm.svg",
     "featured": false,
     "clients": [
       "First Security Islami Bank PLC",
@@ -487,7 +487,7 @@
       "Improved transaction transparency and customer trust in digital banking.",
       "Reduced customer support inquiries related to unnoticed or unconfirmed transactions."
     ],
-    "image": "https://6a9698f13db6a220b86463d4.imgix.net/sandbox/Gemini_Generated_Image_61iyps61iyps61iy.png?w=800&h=600&fit=crop&crop=faces&auto=format,compress",
+    "image": "img/project/13_email_alert.svg",
     "featured": false
   },
   {
@@ -521,7 +521,7 @@
       "Enabled the IVR platform to securely access real-time customer and account data.",
       "Improved service accessibility and reduced dependency on branch/internet channels."
     ],
-    "image": "https://6a9698f13db6a220b86463d4.imgix.net/sandbox/Gemini_Generated_Image_tt1cbhtt1cbhtt1c.png?w=800&h=600&fit=crop&crop=faces&auto=format,compress",
+    "image": "img/project/14_ivr_api.svg",
     "featured": false
   },
   {
@@ -556,7 +556,7 @@
       "Successfully migrated 35+ banks with 99.99% uptime",
       "Enhanced security compliance"
     ],
-    "image": "https://ivaluegroup.com/en-bd/wp-content/uploads/sites/3/2023/01/Hardware-Security-Module.webp",
+    "image": "img/project/15_hsm_migration.svg",
     "featured": true
   },
   {
@@ -698,7 +698,7 @@
       "Enabled real-time credit disbursement (OCT) and account/wallet funding (AFT) use cases.",
       "Expanded the bank's card product capabilities to support modern payout and funding flows."
     ],
-    "image": "https://psplab.com/wp-content/uploads/2020/09/what_is_original_credit_transaction.jpg",
+    "image": "img/project/19_visa_oct_aft.svg",
     "featured": false
   }
 ]
